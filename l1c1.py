@@ -1,0 +1,15 @@
+import cv2
+img = cv2.imread('img2.jpeg', 1)
+print(img)
+
+img1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+img2 = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
+img3 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+img4 = cv2.cvtColor(img,cv2.COLOR_BGR2Lab)
+cv2.imshow('color_image',img)
+cv2.imshow('gray image',img1)
+cv2.imshow('rgb image',img2)
+cv2.imshow('hsv image',img3)
+cv2.imshow('lab image',img4)
+cv2.waitKey(000)
+cv2.destroyAllWindows()
