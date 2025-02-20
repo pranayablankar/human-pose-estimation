@@ -7,9 +7,9 @@ Prerequisites
 
 Ensure you have Python installed (preferably Python 3.7 or later). You will also need the following libraries:
 
-OpenCV (cv2)
+''' OpenCV (cv2)
 
-MediaPipe (mediapipe)
+MediaPipe (mediapipe) '''
 
 Installing Dependencies
 
@@ -29,11 +29,11 @@ Alternative: Running with a Video File
 
 If you want to process a video file instead of the webcam, replace the following line in the script:
 
-cap = cv2.VideoCapture(0)
+'''cap = cv2.VideoCapture(0) '''
 
 with:
 
-cap = cv2.VideoCapture("path_to_video.mp4")
+''' cap = cv2.VideoCapture("path_to_video.mp4") '''
 
 Replace "path_to_video.mp4" with the actual path to your video file.
 
